@@ -27,22 +27,21 @@ Here are some ideas to get you started:
 
 网络安全爱好者，专注渗透测试、云安全、靶机复现与 CVE 分析。
 
-## 最新文章（技术类）
+## 博客技术文章分类概括
 
-- [mazesec-BabyShell](https://yliken.github.io/2025/11/09/%E9%9D%B6%E6%9C%BA/mazesec/mazesec-BabyShell/) — 2025-11-09  
-  Linux 靶机复现，涉及主机发现与 arp-scan 技巧。
+我的博客目前聚焦以下技术领域（排除 Pwn 相关内容）：
 
-- [【Pwnedlabs】Exploit Jenkins in the Cloud](https://yliken.github.io/2025/10/08/%E4%BA%91/Exploit%20Jenkins%20in%20the%20Cloud/) — 2025-10-08  
-  云环境 Jenkins 无认证漏洞利用实践。（Pwnedlabs 系列）
+- **靶机复现**（5 篇）  
+  Linux 靶机实践，如 MazeSec 和 HackMyVM 系列，涉及主机发现、SQL 注入等技巧。
 
-- [hackmyvm-Democracy](https://yliken.github.io/2025/09/18/%E9%9D%B6%E6%9C%BA/hackmyvm/hackmyvm-Democracy/) — 2025-09-18  
-  创新 SQL 注入利用的靶机复现。
+- **云安全**（3 篇）  
+  AWS、Jenkins、GitLab、OIDC 等漏洞利用与权限提升实践（包含 Pwnedlabs 系列）。
 
-- [CVE-2025-53547：Helm依赖更新代码注入漏洞分析及深度思考](https://yliken.github.io/2025/09/09/CVE/%E5%85%B3%E4%BA%8E%20CVE-2025-53547%E7%9A%84%E6%80%9D%E8%80%83/) — 2025-09-09  
-  Helm 代码注入漏洞深度分析。
+- **云原生安全**（1 篇）  
+  Kubernetes RBAC 过度权限、SSTI 等云原生环境攻击链。
 
-- [CVE-2024-39930复现](https://yliken.github.io/2025/07/28/CVE/cve-2024-39930/) — 2025-07-28  
-  CVE 漏洞复现实践。
+- **CVE 复现与分析**（2 篇）  
+  Helm 代码注入、Gogs RCE 等漏洞深度复现与思考。
 
 更多文章 → [我的博客](https://yliken.github.io/)
 
@@ -53,6 +52,4 @@ Here are some ideas to get you started:
 - **CVE 复现**：Helm 代码注入等漏洞分析
 - **渗透测试**：靶机复现、主机发现技巧
 
-常用标签：`aws` `k8s` `pwnedlabs` `cve` `jenkins` `helm` 
-┌──(kali㉿kali)-[~]
-└─$ kubectl auth can-i --list
+常用标签：`aws` `k8s` `pwnedlabs` `cve` `jenkins` `helm`
