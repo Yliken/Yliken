@@ -29,14 +29,14 @@ Here are some ideas to get you started:
 
 ## 最新文章（技术类）
 
+- [mazesec-BabyShell](https://yliken.github.io/2025/11/09/%E9%9D%B6%E6%9C%BA/mazesec/mazesec-BabyShell/) — 2025-11-09  
+  Linux 靶机复现，涉及主机发现与 arp-scan 技巧。
+
 - [【Pwnedlabs】Exploit Jenkins in the Cloud](https://yliken.github.io/2025/10/08/%E4%BA%91/Exploit%20Jenkins%20in%20the%20Cloud/) — 2025-10-08  
-  云环境 Jenkins 无认证漏洞利用实践。
+  云环境 Jenkins 无认证漏洞利用实践。（Pwnedlabs 系列）
 
-- [【Pwnedlabs】Exploit Kubernetes Overly Permissive RBAC](https://yliken.github.io/2025/09/26/%E4%BA%91/%E4%BA%91%E5%8E%9F%E7%94%9F/pwnedlabs-k8s/) — 2025-09-26  
-  Kubernetes RBAC 过度权限与 SSTI 漏洞链。
-
-- [【Pwnedlabs&WIZ】Abuse OpenID Connect and GitLab for AWS Access & Perimeter Leak](https://yliken.github.io/2025/09/23/%E4%BA%91/Abuse%20OpenID%20Connect%20and%20GitLab%20for%20AWS%20Access%20&%20Perimeter%20Leak/) — 2025-09-23  
-  OIDC 信任链滥用实现 AWS 权限提升。
+- [hackmyvm-Democracy](https://yliken.github.io/2025/09/18/%E9%9D%B6%E6%9C%BA/hackmyvm/hackmyvm-Democracy/) — 2025-09-18  
+  创新 SQL 注入利用的靶机复现。
 
 - [CVE-2025-53547：Helm依赖更新代码注入漏洞分析及深度思考](https://yliken.github.io/2025/09/09/CVE/%E5%85%B3%E4%BA%8E%20CVE-2025-53547%E7%9A%84%E6%80%9D%E8%80%83/) — 2025-09-09  
   Helm 代码注入漏洞深度分析。
@@ -53,12 +53,6 @@ Here are some ideas to get you started:
 - **CVE 复现**：Helm 代码注入等漏洞分析
 - **渗透测试**：靶机复现、主机发现技巧
 
-常用标签：`aws` `k8s` `pwnedlabs` `cve` `jenkins` `helm` `oidc`
-
-```bash
+常用标签：`aws` `k8s` `pwnedlabs` `cve` `jenkins` `helm` 
 ┌──(kali㉿kali)-[~]
-└─$ nmap -sV -p- <target>
-┌──(kali㉿kali)-[~]
-└─$ arp-scan --localnet
-┌──(kali㉿kali)-[~]
-└─$ sudo -l | exploit
+└─$ kubectl auth can-i --list
