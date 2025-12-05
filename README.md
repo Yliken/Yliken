@@ -31,17 +31,12 @@ Here are some ideas to get you started:
 
 我的博客目前聚焦以下技术领域（排除 Pwn 相关内容）：
 
-- **靶机复现**（5 篇）  
-  Linux 靶机实践，如 MazeSec 和 HackMyVM 系列，涉及主机发现、SQL 注入等技巧。
-
-- **云安全**（3 篇）  
-  AWS、Jenkins、GitLab、OIDC 等漏洞利用与权限提升实践（包含 Pwnedlabs 系列）。
-
-- **云原生安全**（1 篇）  
-  Kubernetes RBAC 过度权限、SSTI 等云原生环境攻击链。
-
-- **CVE 复现与分析**（2 篇）  
-  Helm 代码注入、Gogs RCE 等漏洞深度复现与思考。
+| 分类              | 文章数 | 主要内容                                                                 |
+|-------------------|--------|--------------------------------------------------------------------------|
+| **靶机复现**     | 5 篇   | Linux 靶机实践，如 MazeSec 和 HackMyVM 系列，涉及主机发现、SQL 注入等技巧 |
+| **云安全**       | 3 篇   | AWS、Jenkins、GitLab、OIDC 等漏洞利用与权限提升实践（包含 Pwnedlabs 系列） |
+| **云原生安全**   | 1 篇   | Kubernetes RBAC 过度权限、SSTI 等云原生环境攻击链                        |
+| **CVE 复现与分析** | 2 篇   | Helm 代码注入、Gogs RCE 等漏洞深度复现与思考                             |
 
 更多文章 → [我的博客](https://yliken.github.io/)
 
@@ -52,4 +47,12 @@ Here are some ideas to get you started:
 - **CVE 复现**：Helm 代码注入等漏洞分析
 - **渗透测试**：靶机复现、主机发现技巧
 
-常用标签：`aws` `k8s` `pwnedlabs` `cve` `jenkins` `helm`
+常用标签：`aws` `k8s` `pwnedlabs` `cve` `jenkins` `helm` `oidc`
+
+```bash
+┌──(kali㉿kali)-[~]
+└─$ nmap -sV -p- <target>          # 服务扫描，发现开放端口与版本
+┌──(kali㉿kali)-[~]
+└─$ arp-scan --localnet            # 局域网主机发现神器
+┌──(kali㉿kali)-[~]
+└─$ kubectl auth can-i --list      # 检查 Kubernetes RBAC 权限
