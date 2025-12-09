@@ -72,18 +72,3 @@ Here are some ideas to get you started:
 </p>
 
 ---
-
-## 💻 日常命令（出题人/红队人真实写照）
-
-```bash
-┌──(kali㉿Yliken)-[~]
-└─$ go run main.go                            # Go 语言项目启动日常
-┌──(kali㉿Yliken)-[~]
-└─$ nmap -sV -p- <target>                     # 经典指纹
-┌──(kali㉿Yliken)-[~]
-└─$ kubectl auth can-i --list --as=attacker   # K8s 权限摸底
-┌──(kali㉿Yliken)-[~]
-└─$ ./client whoami                           # C2 框架测试
-┌──(kali㉿Yliken)-[~]
-└─$ WindowsFinder.exe -u -r                   # WindowsFinder 快速信息采集
-```
