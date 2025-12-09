@@ -13,7 +13,8 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
---><img align="right" src="https://github.com/Yliken.png" width="21%" />
+-->
+<img align="right" src="https://yliken.github.io/img/essayhead/second.jpg" width="21%" />
 # 👋 Yliken
 
 > **红豆藏于南枝深处，相思缠绕心头不息。**
@@ -31,6 +32,7 @@ Here are some ideas to get you started:
 | 项目名称 | 简介 | 技术栈 | 仓库地址 |
 | :--- | :--- | :--- | :--- |
 | **ylikenC2** | 基于《GO黑帽子》实现的 **gRPC C2 框架**。一个用于学习和研究高性能命令与控制通信的教育项目。 | Go, gRPC, Protocol Buffers | [ylikenC2](https://github.com/Yliken/ylikenC2) |
+| **WindowsFinder** | 专为 Windows 系统信息快速采集与分析设计的本土化工具，用于渗透测试、红队评估和系统审计。 | Go, Windows API, WMI, Event Logs | [WindowsFinder](https://github.com/Yliken/WindowsFinder) |
 | **AllCTFGolangTi** | 纯 Go + Gin 框架编写的硬核 Web CTF 题目合集，包含 SSRF、SQL 注入等经典漏洞。 | Go, Gin, Docker | [AllCTFGolangTi](https://github.com/Yliken/AllCTFGolangTi) |
 | **QQbotYan** | 企业级 QQ 群安全审计机器人，支持 OneBot v11。 | Go, OneBot v11 | [QQbotYan](https://github.com/Yliken/QQbotYan) |
 
@@ -63,6 +65,7 @@ Here are some ideas to get you started:
 
 <p align="center">
     <img src="https://img.shields.io/badge/Go安全开发-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Windows系统审计-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
     <img src="https://img.shields.io/badge/云安全-FF6F61?style=for-the-badge&logo=amazonaws&logoColor=white"/>
     <img src="https://img.shields.io/badge/CTF出题-00BFFF?style=for-the-badge&logo=hackthebox&logoColor=white"/>
     <img src="https://img.shields.io/badge/红队攻防-EF4E4F?style=for-the-badge&logo=kali-linux&logoColor=white"/>
@@ -81,4 +84,6 @@ Here are some ideas to get you started:
 └─$ kubectl auth can-i --list --as=attacker   # K8s 权限摸底
 ┌──(kali㉿Yliken)-[~]
 └─$ ./client whoami                           # C2 框架测试
+┌──(kali㉿Yliken)-[~]
+└─$ WindowsFinder.exe -u -r                   # WindowsFinder 快速信息采集
 ```
