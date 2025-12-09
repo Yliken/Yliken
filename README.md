@@ -48,7 +48,7 @@ Here are some ideas to get you started:
 | 项目 | 简介 | 技术亮点 | 一键启动 |
 |------|------|----------|----------|
 | **AllCTFGolangTi** | 纯手敲 Go + Gin 框架三道硬核 Web 题 | SSRF + 内网探测、二次 SQL 注入 + 宽字节、MySQL 比较特性利用 | Docker 一键运行 |
-| **QQbotYan** | 企业级 QQ 群安全审计机器人（支持 OneBot v11） | 违禁词检测、钓鱼链接识别、色情图片检测、消息撤回审计、自动踢人/禁言 | `docker run -d yliken/qqbotyan` |
+| **QQbotYan** | 企业级 QQ 群安全审计机器人（支持 OneBot v11） | 一个集「每日自动天气提醒 + CTF 比赛日程播报 + 豆包大模型实时语音回复 + 违禁词检测 + 一键踢禁管理」于一身的全能 QQ 群管家 |  |
 
 → 立刻开冲 AllCTFGolangTi：https://github.com/Yliken/AllCTFGolangTi  
 → 立刻部署 QQbotYan：https://github.com/Yliken/QQbotYan
