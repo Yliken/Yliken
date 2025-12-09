@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<img align="right" src="https://yliken.github.io/img/essayhead/second.jpg" width="21%" />
+<img align="right" src="https://yliken.github.io/img/essayhead/second.jpg" width="15%" />
 # 👋 Yliken
 
 > **红豆藏于南枝深处，相思缠绕心头不息。**
