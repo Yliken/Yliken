@@ -66,11 +66,8 @@ Here are some ideas to get you started:
 
 <p align="center">
   <img src="https://img.shields.io/badge/Go安全开发-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Windows系统审计-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
-  <img src="https://img.shields.io/badge/云安全-FF6F61?style=for-the-badge&logo=amazonaws&logoColor=white"/>
   <img src="https://img.shields.io/badge/CTF出题-00BFFF?style=for-the-badge&logo=hackthebox&logoColor=white"/>
   <img src="https://img.shields.io/badge/红队攻防-EF4E4F?style=for-the-badge&logo=kali-linux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AV/EDR绕过-FF2E2E?style=for-the-badge&logo=shield&logoColor=white"/>
 </p>
 
 ---
