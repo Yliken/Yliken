@@ -28,7 +28,6 @@
 | [ai4](https://github.com/Yliken/ai4) | 2026 腾讯云第二届智能渗透黑客松参赛作品 | Go |
 | [WindowsFinder](https://github.com/Yliken/WindowsFinder) | 快速收集 Windows 服务器基础信息的工具 | Go |
 | [GoAWDTools](https://github.com/Yliken/GoAWDTools) | 面向攻防场景的安全工具集合 | Go |
-| [ylikenC2](https://github.com/Yliken/ylikenC2) | 基于 Go 的 C2 学习与研究项目 | Go |
 | [AllCTFGolangTi](https://github.com/Yliken/AllCTFGolangTi) | 与 Go / Web 安全相关的 CTF 题目整理与实践 | JavaScript / Go |
 
 ---
